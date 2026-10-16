@@ -1,6 +1,7 @@
 # Lab 1 – Deep Learning : régression et classification avec PyTorch
 
 Université Abdelmalek Essaadi – FST Tanger – Module Deep Learning et Applications (Pr. Elaachak Lotfi)
+
 Auteure : Ikrame Houzane
 
 ## Objectif
