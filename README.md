@@ -98,7 +98,3 @@ Sur le train (lignes réelles), le F1 macro est de 0,883 : le modèle surapprend
 - **Surapprentissage** : lire les courbes train/validation, early stopping. Le dropout et le L2 ne sont pas automatiquement utiles : un L2 trop fort a fait chuter le F1 macro de 0,73 à 0,47.
 - **Choix des hyperparamètres** : sur la validation, jamais sur le test (utilisé une seule fois à la fin).
 - **Classes déséquilibrées** : l'accuracy est trompeuse ; précision, sensibilité, F1 par classe ; SMOTE après le découpage, uniquement sur le train.
-
-## Limites
-
-Un seul entraînement par configuration (une seule graine), et peu d'exemples par panne (9 à 22 en test) : les petits écarts entre modèles sont du bruit. Les étiquettes du dataset semblent générées par des règles à seuils (hypothèse tirée de l'EDA), donc les scores ne reflètent pas forcément un cas réel.
